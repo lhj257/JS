@@ -17,6 +17,7 @@ document.addEventListener("keydown", function (e) {
   drumPlay(key);
 });
 
+// 반복되는코드 정리
 function drumPlay(key) {
   if (key == "w") {
     const audio = new Audio("sounds/tom-1.mp3");
